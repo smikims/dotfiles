@@ -1,5 +1,6 @@
 " Basics
 set nocompatible
+set ttyfast
 set encoding=utf8
 set t_Co=256
 filetype indent plugin on
@@ -14,6 +15,7 @@ set hlsearch
 " Usability
 set ignorecase
 set smartcase
+set smarttab
 set backspace=indent,eol,start
 set autoindent
 set nostartofline
@@ -25,12 +27,21 @@ set cmdheight=2
 set number
 set notimeout ttimeout ttimeoutlen=200
 set wrapscan
+set textwidth=80
+set shiftwidth=4
+set tabstop=4
 
 " Remappings
 map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+nnoremap j gj
+nnoremap k gk
+
+" Filetypes
+autocmd FileType c setlocal shiftwidth=8 tabstop=8
 
 " Colors
 colorscheme molokai
