@@ -46,12 +46,6 @@ alias update='pacaur -Syu'
 # Sudo alias
 alias svim='sudo vim'
 
-# Remote servers
-alias armory='ssh smikims@b.armory.com'
-alias palm='ssh -X reudc13@user.palmetto.clemson.edu'
-alias palmy='ssh -Y reudc13@user.palmetto.clemson.edu'
-alias tunnel='ssh -D 2000 smikims@b.armory.com -N -f'
-
 # Programs
 alias ifrestart='sudo ip link set wlp2s0 down && sudo ip link set wlp2s0 up'
 alias record='ffmpeg -f x11grab -s wxga -r 25 -i :0.0 -qscale 0'
