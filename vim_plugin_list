@@ -1,0 +1,17 @@
+~/.vim/autoload
+pathogen.vim
+
+~/.vim/bundle
+a.vim
+clang_complete
+nerdtree
+promptline.vim
+supertab
+syntastic
+tmuxline.vim
+vim-airline
+vim-fugitive
+vim-unimpaired
+
+~/.vim/colors/
+molokai.vim
