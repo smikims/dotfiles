@@ -1,17 +1,25 @@
-~/.vim/autoload
+.vim/vimrc
+
+.vim/autoload:
 pathogen.vim
 
-~/.vim/bundle
+.vim/bundle:
 a.vim
 clang_complete
+closetag.vim
+ctrlp.vim
+GoldenView.Vim
+nerdcommenter
 nerdtree
+OmniCppComplete
 promptline.vim
 supertab
 syntastic
 tmuxline.vim
 vim-airline
 vim-fugitive
+vim-slime
 vim-unimpaired
 
-~/.vim/colors/
+.vim/colors:
 molokai.vim
